@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6FB020826F609F5003F7882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FB020726F609F5003F7882 /* AppDelegate.swift */; };
+		F6FB020A26F609F5003F7882 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FB020926F609F5003F7882 /* SceneDelegate.swift */; };
+		F6FB020C26F609F5003F7882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FB020B26F609F5003F7882 /* ViewController.swift */; };
+		F6FB020F26F609F5003F7882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FB020D26F609F5003F7882 /* Main.storyboard */; };
+		F6FB021226F609F5003F7882 /* WindScribble.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6FB021026F609F5003F7882 /* WindScribble.xcdatamodeld */; };
+		F6FB021426F609F6003F7882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6FB021326F609F6003F7882 /* Assets.xcassets */; };
+		F6FB021726F609F6003F7882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FB021526F609F6003F7882 /* LaunchScreen.storyboard */; };
+		F6FB022226F609F6003F7882 /* WindScribbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FB022126F609F6003F7882 /* WindScribbleTests.swift */; };
+		F6FB022C26F609F6003F7882 /* WindScribbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FB022B26F609F6003F7882 /* WindScribbleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6FB021E26F609F6003F7882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6FB01FC26F609F5003F7882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6FB020326F609F5003F7882;
+			remoteInfo = WindScribble;
+		};
+		F6FB022826F609F6003F7882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6FB01FC26F609F5003F7882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6FB020326F609F5003F7882;
+			remoteInfo = WindScribble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6FB020426F609F5003F7882 /* WindScribble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindScribble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FB020726F609F5003F7882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6FB020926F609F5003F7882 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6FB020B26F609F5003F7882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6FB020E26F609F5003F7882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6FB021126F609F5003F7882 /* WindScribble.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WindScribble.xcdatamodel; sourceTree = "<group>"; };
+		F6FB021326F609F6003F7882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6FB021626F609F6003F7882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6FB021826F609F6003F7882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6FB021D26F609F6003F7882 /* WindScribbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindScribbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FB022126F609F6003F7882 /* WindScribbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindScribbleTests.swift; sourceTree = "<group>"; };
+		F6FB022726F609F6003F7882 /* WindScribbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindScribbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FB022B26F609F6003F7882 /* WindScribbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindScribbleUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6FB020126F609F5003F7882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6FB021A26F609F6003F7882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6FB022426F609F6003F7882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6FB01FB26F609F5003F7882 = {
+			isa = PBXGroup;
+			children = (
+				F6FB020626F609F5003F7882 /* WindScribble */,
+				F6FB022026F609F6003F7882 /* WindScribbleTests */,
+				F6FB022A26F609F6003F7882 /* WindScribbleUITests */,
+				F6FB020526F609F5003F7882 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6FB020526F609F5003F7882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6FB020426F609F5003F7882 /* WindScribble.app */,
+				F6FB021D26F609F6003F7882 /* WindScribbleTests.xctest */,
+				F6FB022726F609F6003F7882 /* WindScribbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6FB020626F609F5003F7882 /* WindScribble */ = {
+			isa = PBXGroup;
+			children = (
+				F6FB020726F609F5003F7882 /* AppDelegate.swift */,
+				F6FB020926F609F5003F7882 /* SceneDelegate.swift */,
+				F6FB020B26F609F5003F7882 /* ViewController.swift */,
+				F6FB020D26F609F5003F7882 /* Main.storyboard */,
+				F6FB021326F609F6003F7882 /* Assets.xcassets */,
+				F6FB021526F609F6003F7882 /* LaunchScreen.storyboard */,
+				F6FB021826F609F6003F7882 /* Info.plist */,
+				F6FB021026F609F5003F7882 /* WindScribble.xcdatamodeld */,
+			);
+			path = WindScribble;
+			sourceTree = "<group>";
+		};
+		F6FB022026F609F6003F7882 /* WindScribbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6FB022126F609F6003F7882 /* WindScribbleTests.swift */,
+			);
+			path = WindScribbleTests;
+			sourceTree = "<group>";
+		};
+		F6FB022A26F609F6003F7882 /* WindScribbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6FB022B26F609F6003F7882 /* WindScribbleUITests.swift */,
+			);
+			path = WindScribbleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6FB020326F609F5003F7882 /* WindScribble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6FB022F26F609F6003F7882 /* Build configuration list for PBXNativeTarget "WindScribble" */;
+			buildPhases = (
+				F6FB020026F609F5003F7882 /* Sources */,
+				F6FB020126F609F5003F7882 /* Frameworks */,
+				F6FB020226F609F5003F7882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindScribble;
+			productName = WindScribble;
+			productReference = F6FB020426F609F5003F7882 /* WindScribble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6FB021C26F609F6003F7882 /* WindScribbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6FB023226F609F6003F7882 /* Build configuration list for PBXNativeTarget "WindScribbleTests" */;
+			buildPhases = (
+				F6FB021926F609F6003F7882 /* Sources */,
+				F6FB021A26F609F6003F7882 /* Frameworks */,
+				F6FB021B26F609F6003F7882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6FB021F26F609F6003F7882 /* PBXTargetDependency */,
+			);
+			name = WindScribbleTests;
+			productName = WindScribbleTests;
+			productReference = F6FB021D26F609F6003F7882 /* WindScribbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6FB022626F609F6003F7882 /* WindScribbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6FB023526F609F6003F7882 /* Build configuration list for PBXNativeTarget "WindScribbleUITests" */;
+			buildPhases = (
+				F6FB022326F609F6003F7882 /* Sources */,
+				F6FB022426F609F6003F7882 /* Frameworks */,
+				F6FB022526F609F6003F7882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6FB022926F609F6003F7882 /* PBXTargetDependency */,
+			);
+			name = WindScribbleUITests;
+			productName = WindScribbleUITests;
+			productReference = F6FB022726F609F6003F7882 /* WindScribbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6FB01FC26F609F5003F7882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F6FB020326F609F5003F7882 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F6FB021C26F609F6003F7882 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F6FB020326F609F5003F7882;
+					};
+					F6FB022626F609F6003F7882 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F6FB020326F609F5003F7882;
+					};
+				};
+			};
+			buildConfigurationList = F6FB01FF26F609F5003F7882 /* Build configuration list for PBXProject "WindScribble" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6FB01FB26F609F5003F7882;
+			productRefGroup = F6FB020526F609F5003F7882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6FB020326F609F5003F7882 /* WindScribble */,
+				F6FB021C26F609F6003F7882 /* WindScribbleTests */,
+				F6FB022626F609F6003F7882 /* WindScribbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6FB020226F609F5003F7882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FB021726F609F6003F7882 /* LaunchScreen.storyboard in Resources */,
+				F6FB021426F609F6003F7882 /* Assets.xcassets in Resources */,
+				F6FB020F26F609F5003F7882 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6FB021B26F609F6003F7882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6FB022526F609F6003F7882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6FB020026F609F5003F7882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FB020C26F609F5003F7882 /* ViewController.swift in Sources */,
+				F6FB021226F609F5003F7882 /* WindScribble.xcdatamodeld in Sources */,
+				F6FB020826F609F5003F7882 /* AppDelegate.swift in Sources */,
+				F6FB020A26F609F5003F7882 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6FB021926F609F6003F7882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FB022226F609F6003F7882 /* WindScribbleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6FB022326F609F6003F7882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FB022C26F609F6003F7882 /* WindScribbleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6FB021F26F609F6003F7882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6FB020326F609F5003F7882 /* WindScribble */;
+			targetProxy = F6FB021E26F609F6003F7882 /* PBXContainerItemProxy */;
+		};
+		F6FB022926F609F6003F7882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6FB020326F609F5003F7882 /* WindScribble */;
+			targetProxy = F6FB022826F609F6003F7882 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6FB020D26F609F5003F7882 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6FB020E26F609F5003F7882 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6FB021526F609F6003F7882 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6FB021626F609F6003F7882 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6FB022D26F609F6003F7882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6FB022E26F609F6003F7882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6FB023026F609F6003F7882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FYFNZPZ3WW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WindScribble/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.norrisboat.WindScribble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6FB023126F609F6003F7882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FYFNZPZ3WW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WindScribble/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.norrisboat.WindScribble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6FB023326F609F6003F7882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FYFNZPZ3WW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.norrisboat.WindScribbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindScribble.app/WindScribble";
+			};
+			name = Debug;
+		};
+		F6FB023426F609F6003F7882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FYFNZPZ3WW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.norrisboat.WindScribbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindScribble.app/WindScribble";
+			};
+			name = Release;
+		};
+		F6FB023626F609F6003F7882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FYFNZPZ3WW;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.norrisboat.WindScribbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WindScribble;
+			};
+			name = Debug;
+		};
+		F6FB023726F609F6003F7882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FYFNZPZ3WW;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.norrisboat.WindScribbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WindScribble;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6FB01FF26F609F5003F7882 /* Build configuration list for PBXProject "WindScribble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6FB022D26F609F6003F7882 /* Debug */,
+				F6FB022E26F609F6003F7882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6FB022F26F609F6003F7882 /* Build configuration list for PBXNativeTarget "WindScribble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6FB023026F609F6003F7882 /* Debug */,
+				F6FB023126F609F6003F7882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6FB023226F609F6003F7882 /* Build configuration list for PBXNativeTarget "WindScribbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6FB023326F609F6003F7882 /* Debug */,
+				F6FB023426F609F6003F7882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6FB023526F609F6003F7882 /* Build configuration list for PBXNativeTarget "WindScribbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6FB023626F609F6003F7882 /* Debug */,
+				F6FB023726F609F6003F7882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6FB021026F609F5003F7882 /* WindScribble.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6FB021126F609F5003F7882 /* WindScribble.xcdatamodel */,
+			);
+			currentVersion = F6FB021126F609F5003F7882 /* WindScribble.xcdatamodel */;
+			path = WindScribble.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F6FB01FC26F609F5003F7882 /* Project object */;
+}

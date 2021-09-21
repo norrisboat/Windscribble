@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  WindScribble
 //
-//  Created by Norris Aboagye Boateng on 18/09/2021.
+//  Created by Norris Aboagye Boateng on 19/09/2021.
 //
 
 import UIKit
@@ -47,7 +47,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
 
         // Save changes in the application's managed object context when the application transitions to the background.
-        (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+        CoreDataStorage.shared.saveContext()
     }
 
 

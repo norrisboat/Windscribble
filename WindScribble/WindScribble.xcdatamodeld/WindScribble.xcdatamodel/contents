@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19141.11" systemVersion="20G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ServerLocation" representedClassName=".ServerLocation" syncable="YES">
+        <attribute name="countryCode" attributeType="String"/>
+        <attribute name="dnsHostname" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="nodes" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="ServerNode" inverseName="serverLocation" inverseEntity="ServerNode"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="name"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="ServerNode" representedClassName=".ServerNode" syncable="YES">
+        <attribute name="hostname" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="serverLocation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ServerLocation" inverseName="nodes" inverseEntity="ServerLocation"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="name"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="ServerLocation" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="ServerNode" positionX="287.14453125" positionY="36.7421875" width="128" height="74"/>
+    </elements>
 </model>
